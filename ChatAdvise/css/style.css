@@ -45,7 +45,7 @@ a:hover, button:hover { color: rgb(63, 81, 181); text-decoration: none; }
 
 .cnt { max-width: 560px; width: 100%; display: block; margin: 0 auto; padding: 100px 5px; text-align: center; box-sizing: border-box; }
 .cnt .logo { width: 287px;  display: block; margin: 0 auto 25px auto; font-size: 0; line-height: 0;  }
-.cnt h2 { margin: 0 auto 10px auto; font-size: 45px; line-height: 50px; color: #2c3033; font-weight: bold; }
+.cnt h2 { margin: 0 auto 10px auto; font-size: 42px; line-height: 47px; color: #2c3033; font-weight: bold; }
 .cnt h3 { margin: 0 auto 20px auto; font-size: 26px; line-height: 35px; color: #329fd9; max-width: 440px; }
 .cnt p { margin: 0 0 15px 0; }
 .cnt .logos { margin: 0 0 10px 0; display: flex; justify-content: center; flex-wrap: wrap; align-items: center; }
@@ -71,10 +71,14 @@ a:hover, button:hover { color: rgb(63, 81, 181); text-decoration: none; }
 .opened .popup .close { transform: scale(1); }
 
 
+.row {
+	height: 100vh;
+}
+
 
 	.copy {
 		position: fixed;
-		bottom: 0;
+		bottom: 10px;
 		right: 0;
 		display: block;
 		text-align: center;
@@ -116,6 +120,18 @@ a:hover, button:hover { color: rgb(63, 81, 181); text-decoration: none; }
 		width: 100%;
 		height: auto;
 		/* zoom: 59%; */
+	}
+
+	.lside {
+		min-height: 50vh;
+		height: 50vh;
+	}
+
+	.copy {
+		position: static;
+		width: 100%;
+		margin: 0;
+		margin-bottom: 20px;
 	}
 }
 
