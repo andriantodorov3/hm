@@ -430,6 +430,7 @@ a:hover, button:hover {
 		display: block;
 		width: 100%;
 		position: relative;
+		margin-top: 40px;
 	}
 }
 
