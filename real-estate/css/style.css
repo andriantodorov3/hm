@@ -27,7 +27,7 @@ body {
 	scroll-behavior: smooth;
 	display: block;
 	height: 100vh;
-	overflow-x: hidden;
+	overflow: hidden;
 }
 
 body.hidden {
@@ -440,7 +440,7 @@ h2 {
 	}
 }
 
-@media (max-width:1023px) and (max-height: 600px) {
+@media (max-width:1200px) and (max-height: 800px) {
 	body {
 		font-size: 26px;
 		line-height: 24px;
