@@ -400,4 +400,6 @@ a:hover, button:hover {
 .lside {
 	background: url(images/dog.png) no-repeat center center;
 	background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
 }
